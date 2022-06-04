@@ -1,0 +1,25 @@
+.user-component__subtitle2 {
+    display: flex;
+    align-items: center;
+}
+
+.user-component__subtitle2 i {
+    margin-left: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    color: tomato;
+}
+
+.more-screen .icon-row {
+    margin-top: 35px;
+}
+
+.more-suggestions {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+
+.more-suggestions__title {
+    margin-bottom: 30px;
+}
