@@ -135,7 +135,7 @@
     border:var(--main-border);
     border-radius: 25px;
     box-sizing: border-box;
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .reply .reply__column:last-child > i,
@@ -180,11 +180,12 @@
     opacity: 0;
 }
 
-.reply:focus-within input {
+.reply input:focus {
     width: 98vw;
-    transform: translateX(-13%) translateY(-80px);
+    transform: translatex(-13%) translatey(-80px);
 }
 
 .reply:focus-within {
-    transform: translateY(80px);
+    transform: translatey(80px);
 }
+ 
